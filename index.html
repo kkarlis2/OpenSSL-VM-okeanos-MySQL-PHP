@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> Hide / Show Password - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+
+    <body>
+        <div class="form-box">
+            <h1>LOGIN HERE</h1>
+            <div class="input-box">
+                <i class="fa fa-key"></i>
+                <input type="username" placeholder="username" id="myInput" required>
+            </div>
+            <button type="sumbit" class="login-btn" onclick="myFunction()">sumbit</button>
+            
+        </div>
+        <script >
+            function myFunction(){
+                var x = document.getElementsById("myInput").value;
+
+                if(x=="3190077"){
+                    alert("success");
+                }else{
+                    alert("fail");
+                }
+            }
+        </script>
+    </body>
+
+
+</html>
